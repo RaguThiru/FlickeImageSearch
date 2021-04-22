@@ -1,0 +1,94 @@
+ext {
+
+    def supportGroupId = 'com.android.support'
+    //Support Libraries dependencies
+    supportDependencies = [
+            design           : "com.google.android.material:material:1.2.0",
+            recyclerView     : "androidx.recyclerview:recyclerview:1.1.0",
+            cardView         : "androidx.cardview:cardview:1.0.0",
+            appCompat        : "androidx.appcompat:appcompat:1.2.0",
+            supportAnnotation: "androidx.annotation:annotation:1.1.0",
+            constraintLyt    : "androidx.constraintlayout:constraintlayout:2.0.0",
+    ]
+
+    def roomVersion = '2.2.0'
+    def roomGroupId = 'androidx.room'
+    //Room Version
+
+    roomDependencies = [
+            core    : "${roomGroupId}:room-runtime:${roomVersion}",
+            compiler: "${roomGroupId}:room-compiler:${roomVersion}",
+            rxJava2 : "${roomGroupId}:room-rxjava2:${roomVersion}",
+            safeRoom: "com.commonsware.cwac:saferoom:1.0.1",
+    ]
+
+    def lifeCycleVersion = '2.2.0'
+    def lifeCycleGroupId = 'androidx.lifecycle'
+    //LifeCycleComponents
+
+    lifeCycleComponentDependencies = [
+            runtime   : "${lifeCycleGroupId}:lifecycle-runtime-ktx:${lifeCycleVersion}",
+            viewmodel : "${lifeCycleGroupId}:lifecycle-viewmodel-ktx:${lifeCycleVersion}",
+            extensions: "${lifeCycleGroupId}:lifecycle-extensions:${lifeCycleVersion}",
+            compiler  : "${lifeCycleGroupId}:lifecycle-compiler:${lifeCycleVersion}",
+            livedata:"${lifeCycleGroupId}:lifecycle-livedata-ktx:${lifeCycleVersion}"
+    ]
+
+    def coroutinesCoreVersion = '1.0.0'
+    def coroutineAdapterVersion = '1.0.0'
+    def retrofitCoroutineVersion = '1.0.0'
+    def coroutineAndroidVersion = '1.0.0'
+
+
+    def kotlinxGroupId = 'org.jetbrains.kotlinx'
+    def jakeWhartonsGroupId = 'com.jakewharton.retrofit'
+    def gildorCoroutineGroupId = 'ru.gildor.coroutines'
+
+    coroutineLibraries = [
+            core             : "${kotlinxGroupId}:kotlinx-coroutines-core:${coroutinesCoreVersion}",
+            retrofitConverter: "${gildorCoroutineGroupId}:kotlin-coroutines-retrofit:${retrofitCoroutineVersion}",
+            coroutineAndroid : "${kotlinxGroupId}:kotlinx-coroutines-android:${coroutineAndroidVersion}"
+    ]
+
+    def retrofitGroupId = 'com.squareup.retrofit2'
+    def okHttp3GroupId = 'com.squareup.okhttp3'
+    def retrofitSquareConverterVersion = '2.7.0'
+    def retrofitRxJavaVersion = '1.0.0'
+    def okHttpInterceptorVersion = '3.14.0'
+
+    retrofitLibraries = [
+            retrofit         : "$retrofitGroupId:retrofit:${retrofitSquareConverterVersion}",
+            convertergson    : "$retrofitGroupId:converter-gson:${retrofitSquareConverterVersion}",
+            converterscalars : "$retrofitGroupId:converter-scalars:${retrofitSquareConverterVersion}",
+            rxJava2          : "$jakeWhartonsGroupId:retrofit2-rxjava2-adapter:${retrofitRxJavaVersion}",
+            okHttpInterceptor: "$okHttp3GroupId:logging-interceptor:${okHttpInterceptorVersion}"
+    ]
+
+
+    def paginingGroupId = 'androidx.paging'
+    def paginingVersion = '2.1.2'
+    paging = [
+            runtime: "$paginingGroupId:paging-runtime-ktx:$paginingVersion",
+            common : "$paginingGroupId:paging-common-ktx:$paginingVersion"
+    ]
+
+    def firebaseServiceGroupId = 'com.google.firebase'
+
+
+    gmsLibraries = [
+//            firebaseAnalytics        : "$firebaseServiceGroupId:firebase-analytics-ktx:17.4.4",
+firebaseMessaging   : "$firebaseServiceGroupId:firebase-messaging:20.2.1",
+firebaseCrash       : "$firebaseServiceGroupId:firebase-crashlytics-ktx:17.1.0",
+firebaseRemoteConfig: "$firebaseServiceGroupId:firebase-config:18.0.0",
+firebasePerformance : "$firebaseServiceGroupId:firebase-perf:18.0.1",
+    ]
+
+
+    def squareGroupId = 'com.squareup'
+    def picassoVersion = '2.71828'
+
+    squareLibraries = [
+            picasso: "${squareGroupId}.picasso:picasso:$picassoVersion"
+    ]
+
+}
