@@ -12,3 +12,7 @@ i have added changes in my branch 1
 
 
 i have added changes in my branch 2
+
+i have added squash commit#1 changes in my branch 1
+
+i have added squash commit#2 changes in my branch 1
