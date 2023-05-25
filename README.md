@@ -20,3 +20,9 @@ i have added squash commit#2 changes in my branch 1
 i have added squash commit#3 changes in my branch 1
 
 i have added squash commit#4 changes in my branch 1
+
+i have added squash commit#5 changes in my branch 1
+
+i have added squash commit#6 changes in my branch 1
+
+i have added squash commit#7 changes in my branch 1
