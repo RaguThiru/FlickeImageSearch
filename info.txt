@@ -1,1 +1,3 @@
 commit amend  with files changes
+
+rebase commit chnages #1
