@@ -32,3 +32,5 @@ i have added squash commit#8 changes in my branch 1
 i have added squash commit#9 changes in my branch 1
 
 i have added squash commit#10 changes in my branch 1
+
+i have added squash commit#11 changes in my branch 1
