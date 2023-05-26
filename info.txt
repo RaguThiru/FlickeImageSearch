@@ -2,3 +2,5 @@ commit amend  with files changes
 
 
 fetaure rebase commit#1
+
+fetaure rebase commit#2
