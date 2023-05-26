@@ -1,5 +1,12 @@
 commit amend  with files changes
 
+
+fetaure rebase commit#1
+
+fetaure rebase commit#2
+
+fetaure rebase commit#3
+
 rebase commit chnages #1
 
 rebase commit chnages #2
