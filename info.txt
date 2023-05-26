@@ -5,6 +5,7 @@ fetaure rebase commit#1
 
 fetaure rebase commit#2
 
+<<<<<<< HEAD
 fetaure rebase commit#1
 
 fetaure rebase commit#2
@@ -20,3 +21,6 @@ rebase commit chnages #1
 rebase commit chnages #2
 
 rebase commit chnages #3
+=======
+fetaure rebase commit#3
+>>>>>>> a0f9e5d (feature rb#3)
